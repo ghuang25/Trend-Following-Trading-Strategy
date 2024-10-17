@@ -2,24 +2,24 @@
 
 ## Project Overview
 
-This project implements a trend-following trading strategy using stock market data fetched from the Alpha Vantage API. The goal of this strategy is to use **simple moving averages (SMA)** to identify buy and sell signals based on crossovers between short-term and long-term trends in the stock price. The notebook simulates how an algorithmic trading system might execute trades based on these signals, and it provides users with a visual representation of price trends and trading actions.
+This project implements a trend-following trading strategy using stock market data fetched from the Alpha Vantage API. The goal of this strategy is to use **simple moving averages (SMA)** to identify buy and sell signals based on crossovers between short-term and long-term trends in the stock price. The program simulates how an algorithmic trading system might execute trades based on these signals, and it provides users with a visual representation of price trends and trading actions.
 
 ## Purpose
 
 **Educational Tool**:
-This notebook serves as a practical example for those interested in learning about algorithmic trading, financial data analysis, and the use of APIs to fetch real-time stock data. It provides an accessible way for beginners to understand the mechanics behind automated trading strategies and technical indicators.
+This program serves as a practical example for those interested in learning about algorithmic trading, financial data analysis, and the use of APIs to fetch real-time stock data. It provides an accessible way for beginners to understand the mechanics behind automated trading strategies and technical indicators.
 
 **Trading Strategy Testing**:
-It allows users to experiment with a basic trading strategy, showing how moving averages can inform trading decisions. By running the notebook, users can see how simple strategies are backtested and gain insight into their potential effectiveness over a given time period.
+It allows users to experiment with a basic trading strategy, showing how moving averages can inform trading decisions. By running the program, users can see how simple strategies are backtested and gain insight into their potential effectiveness over a given time period.
 
 **Data Analysis**:
-The notebook demonstrates how to collect, manipulate, and visualize financial data, helping users gain a deeper understanding of stock market trends and price movements. The plotted charts give a clear view of how prices evolve and how trading signals are generated.
+The program demonstrates how to collect, manipulate, and visualize financial data, helping users gain a deeper understanding of stock market trends and price movements. The plotted charts give a clear view of how prices evolve and how trading signals are generated.
 
 ## Steps and Methodology
 
 1. **Stock Data Fetching**:
 
-The notebook fetches real-time stock data from the Alpha Vantage API based on the user's input:
+The program fetches real-time stock data from the Alpha Vantage API based on the user's input:
 
 * **Stock symbol** (e.g., AAPL for Apple Inc.)
 * **Time series type** (intraday, daily, etc.)
@@ -72,7 +72,7 @@ The final portfolio value is calculated at the end of the backtest, representing
 
 6. **Visualization**:
 
-The notebook visualizes the following:
+The program visualizes the following:
 
 * **Stock price**: A line plot showing the price evolution over time.
 * **50-day and 200-day SMAs**: Lines representing the short-term and long-term trends.
@@ -89,7 +89,7 @@ The output consists of a chart displaying the stock's price, the short-term (50-
 * **Buy Signals**: Indicated by green dots, representing points where the short-term SMA crosses above the long-term SMA.
 * **Sell Signals**: Indicated by red dots, representing points where the short-term SMA crosses below the long-term SMA.
 
-After backtesting, the notebook prints the initial capital and the final portfolio value, allowing the user to assess the success of the strategy over the selected time period.
+After backtesting, the program prints the initial capital and the final portfolio value, allowing the user to assess the success of the strategy over the selected time period.
 
 ## How to Run the Project
 
