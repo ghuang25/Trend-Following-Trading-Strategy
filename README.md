@@ -91,7 +91,7 @@ The output consists of a chart displaying the stock's price, the short-term (50-
 
 After backtesting, the notebook prints the initial capital and the final portfolio value, allowing the user to assess the success of the strategy over the selected time period.
 
-## How to Run the Notebook
+## How to Run the Project
 
 ### Requirements
 Before running the project, ensure you have the following libraries installed:
@@ -101,29 +101,25 @@ Before running the project, ensure you have the following libraries installed:
 * numpy
 * matplotlib
 * requests (for API interaction)
-* Jupyter Notebook or JupyterLab
 
 You can install the required libraries via ```pip```:
 
 ```
-pip install pandas numpy matplotlib requests jupyter
+pip install pandas numpy matplotlib requests
 ```
-### Steps to Execute the Notebook
+### Steps to Execute the Program
 1. Clone the repository and navigate to your project directory:
 ```
 git clone https://github.com/ghuang25/Trend-Following-Trading-Strategy.git
 ```
 2. Set up an Alpha Vantage account and obtain an API key.
 
-3. Launch Jupyter Notebook:
+3. Run the Python script:
 ```
-jupyter notebook
+python program.py
 ```
-
-4. Open the notebook (```.ipynb``` file) in Jupyter.
-
-5. Run each cell step by step, following the instructions:
-
+4. Follow the prompts:
 * Enter your Alpha Vantage API key.
 * Provide the stock symbol, time series type, and other required inputs.
-6. The notebook will fetch the data, backtest the strategy, and display the final portfolio value. A plot will also be generated to visualize the price, SMAs, and trading signals.
+
+The program will fetch the data, backtest the strategy, and display the final portfolio value. A plot will also be generated to visualize the price, SMAs, and trading signals.
